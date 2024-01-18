@@ -63,13 +63,14 @@ acc = v_qd / tb;
 t_giutoc = (AB_MD - acc*tb*tb) / v_qd;
 tf = t_giutoc + 2*tb;
 
-% %% Quy hoach quy dao bac 5
+%% Quy hoach quy dao bac 5
 % a0=x_0;
 % a1=x_dot_0;
 % a2=x_2dot_0/2;
 % a3=(20*x_F - 20*x_0-(8*x_dot_F + 12*x_dot_0)*tf -(3*x_2dot_0 - x_2dot_F)*tf^2)/(2*tf^3);
 % a4=(30*x_0 - 30*x_F + (14*x_dot_F + 16*x_dot_0)*tf +(3*x_2dot_0 - 2*x_2dot_F)*tf^2)/(2*tf^4);
 % a5=(12*x_F - 12*x_0 - (6*x_dot_F + 6*x_dot_0)*tf -(x_2dot_0 - x_2dot_F)*tf^2)/(2*tf^5);
+
 %% He toa do G
 OG_G = [0 ; 0 ; 0];
 IG_G = [10 ; 0 ; 0];
